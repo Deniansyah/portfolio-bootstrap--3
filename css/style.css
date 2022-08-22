@@ -1,0 +1,17 @@
+.jumbotron {
+    background-color: #888;
+}
+
+.jumbotron img {
+    width: 200px;
+    border: 4px #333 solid;
+}
+
+hr {
+    border-top: 2px #666 solid;
+    width: 400px;
+}
+
+.about {
+    min-height: 600px;
+}
