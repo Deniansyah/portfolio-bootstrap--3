@@ -1,14 +1,23 @@
 body {
     position: relative;
+    margin-top: 50px;
 }
 
 .jumbotron {
-    background-color: rgb(219, 217, 217);
+    background-image: url(../img/bg-jumbotron.jpg);
+    background-size: cover;
+    background-position: 0, 100px;
+    background-attachment: fixed;
+    color: #eaeaea;
 }
 
 .jumbotron img {
-    width: 200px;
-    border: 4px #666 solid;
+    width: 20%;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
+}
+
+.jumbotron h1, .jumbotron p {
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
 }
 
 hr {
@@ -17,16 +26,16 @@ hr {
 }
 
 .about {
-    min-height: 800px;
+    min-height: 650px;
 }
 
 .portfolio {
-    min-height: 800px;
+    min-height: 650px;
     background-color: rgb(219, 217, 217);
 }
 
 .contact {
-    min-height: 800px;
+    min-height: 900px;
 }
 
 .footer {
@@ -35,14 +44,10 @@ hr {
     left: 0;
     right: 0;
     bottom: 0;
-    height: 100px;
+    min-height: 140px;
 }
 
 .footer p {
     color: white;
     padding-top: 40px;
-}
-
-.glyphicon-expand {
-    color: red;
 }
