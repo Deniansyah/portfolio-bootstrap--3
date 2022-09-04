@@ -11,7 +11,7 @@ $('.page-scroll').on('click', function(e) {
 
         scrollTop: elementTujuan.offset().top - 50
 
-    }, 1000);
+    }, 1250, 'easeInOutExpo');
 
 
     e.preventDefault();
